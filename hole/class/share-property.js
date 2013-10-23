@@ -15,8 +15,8 @@ Klass.prototype.setProp = function (value) {
 var obj1 = new Klass();
 var obj2 = new Klass();
 obj2.setProp(1);
-console.log(obj1.prop === 0)
-console.log(obj2.prop === 1);
+console.log(obj1.prop === 0);  // will be true
+console.log(obj2.prop === 1);  // will be true
 
 ////////////////////////////////////////
 // Problem
@@ -31,8 +31,8 @@ $Set.prototype.add = function (item) {
 var obj3 = new $Set();
 var obj4 = new $Set();
 obj4.add(1);
-console.log(obj3.items.length === 1);
-console.log(obj4.items.length === 1);
+console.log(obj3.items.length === 1);  // will be true
+console.log(obj4.items.length === 1);  // will be true
 
 ////////////////////////////////////////
 // Solution
