@@ -3,10 +3,7 @@
  * Date 2013-10-23 12:19:43
  * @author zhongchiyu@gmail.com (cattail)
  * @description Instance property could be share accidently when using 
- * Javascript's prototype based class inheritance.
- *
- * ## Reference
- * * [coffeescript-class-member](http://stackoverflow.com/questions/8355371/coffeescript-class-members)
+ * prototype based class inheritance.
  */
 
 // If property is primitive value, it will be fine.
@@ -21,6 +18,10 @@ obj2.setProp(1);
 console.log(obj1.prop === 0)
 console.log(obj2.prop === 1);
 
+////////////////////////////////////////
+// Problem
+////////////////////////////////////////
+
 // Problem comes with non-primitive value
 function $Set () {}
 $Set.prototype.items = [];
@@ -33,7 +34,11 @@ obj4.add(1);
 console.log(obj3.items.length === 1);
 console.log(obj4.items.length === 1);
 
-// Solution is to move property initialization into constructor
+////////////////////////////////////////
+// Solution
+////////////////////////////////////////
+
+// move property initialization into constructor
 function Set () {
   this.items = [];
 }
@@ -45,3 +50,9 @@ var obj6 = new Set();
 obj6.add(1);
 console.log(obj5.items.length === 0);
 console.log(obj6.items.length === 1);
+
+////////////////////////////////////////
+// Reference
+////////////////////////////////////////
+
+// [coffeescript-class-member](http://stackoverflow.com/questions/8355371/coffeescript-class-members)
