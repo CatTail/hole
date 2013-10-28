@@ -13,6 +13,7 @@
 # test whether browser support touch event
 if 'ontouchstart' in window
   # do stuff
+  stuff() # won't being called
 
 ########################################
 # Solution
@@ -20,6 +21,7 @@ if 'ontouchstart' in window
  
 # using keyword `of` instead
 if 'ontouchstart' of window
+  stuff()
 
 ########################################
 # Reference
