@@ -6,25 +6,25 @@
 # item in array.
 # As a matter of, keyword `of` in coffeescript equals to `in` in javascript!
  
-########################################
+# -----------------------------------------------------------------------------
 # Problem
-########################################
+# -----------------------------------------------------------------------------
 
 # test whether browser support touch event
 if 'ontouchstart' in window
   # do stuff
   stuff() # won't being called
 
-########################################
+# -----------------------------------------------------------------------------
 # Solution
-########################################
+# -----------------------------------------------------------------------------
  
 # using keyword `of` instead
 if 'ontouchstart' of window
   stuff()
 
-########################################
+# -----------------------------------------------------------------------------
 # Reference
-########################################
+# -----------------------------------------------------------------------------
 
 # [simplest-way-to-check-if-key-exists-in-object-using-coffeescript](http://stackoverflow.com/questions/8242984/simplest-way-to-check-if-key-exists-in-object-using-coffeescript)
