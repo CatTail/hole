@@ -5,9 +5,9 @@
 # constructor in class definition body, but there is no such way of referring
 # constructor in static or instance method.
 
-########################################
+# -----------------------------------------------------------------------------
 # Problem
-########################################
+# -----------------------------------------------------------------------------
 
 # Following class have a very long class name, but we want to refer to 
 # constructor in many places.
@@ -19,9 +19,9 @@ class $veryveryverylonglonglongClassName
   getConstructor: ->
     $veryveryverylonglonglongClassName
 
-########################################
+# -----------------------------------------------------------------------------
 # Solution
-########################################
+# -----------------------------------------------------------------------------
     
 # Using following strategy to refer to constructor in static or instance 
 # method.

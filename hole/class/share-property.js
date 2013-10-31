@@ -18,9 +18,9 @@ obj2.setProp(1);
 console.log(obj1.prop === 0);  // will be true
 console.log(obj2.prop === 1);  // will be true
 
-////////////////////////////////////////
+// ----------------------------------------------------------------------------
 // Problem
-////////////////////////////////////////
+// ----------------------------------------------------------------------------
 
 // Problem comes with non-primitive value
 function $Set () {}
@@ -34,9 +34,9 @@ obj4.add(1);
 console.log(obj3.items.length === 1);  // will be true
 console.log(obj4.items.length === 1);  // will be true
 
-////////////////////////////////////////
+// ----------------------------------------------------------------------------
 // Solution
-////////////////////////////////////////
+// ----------------------------------------------------------------------------
 
 // move property initialization into constructor
 function Set () {
@@ -51,8 +51,8 @@ obj6.add(1);
 console.log(obj5.items.length === 0);
 console.log(obj6.items.length === 1);
 
-////////////////////////////////////////
+// ----------------------------------------------------------------------------
 // Reference
-////////////////////////////////////////
+// ----------------------------------------------------------------------------
 
 // [coffeescript-class-member](http://stackoverflow.com/questions/8355371/coffeescript-class-members)
