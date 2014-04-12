@@ -1,10 +1,5 @@
-hole.js
-=======
+遇过的坑, 记住的痛
 
-Problem I come across with the years deal with Javascript language, also including dialect of Javascript such as CoffeeScript
+组织格式:
 
-codestyle
-=========
-
-Nearly every file will including problem and solution code.
-Problem code will be prefix with `$` to distinguish from correct code.
+  * 每篇文章内部分成*问题描述, 解决方案, 相关思考*三部分
