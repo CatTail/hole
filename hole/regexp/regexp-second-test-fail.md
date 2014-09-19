@@ -1,6 +1,7 @@
-### 问题描述
+### Problem
 
-在正则表达式中设置`g`选项需要警惕`lastIndex`属性, 它可能使得检索失败
+With regular expression, pay attention to `lastIndex` property when `g` option
+is set,
 
 ```js
 // When set with `g` option, we have the problem.
@@ -11,7 +12,7 @@ $zhReg.test('test中'); // true
 $zhReg.test('test中'); // false
 ```
 
-### 解决方案
+### Solution
 
 ```js
 // reset lastIndex property
@@ -28,7 +29,6 @@ zhReg2.test('test中'); // true
 zhReg2.test('test中'); // true
 ```
 
-
-### 相关参考
+### References
 
   * [MDN RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions#Working_with_Regular_Expressions)
