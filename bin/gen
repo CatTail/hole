@@ -1,0 +1,25 @@
+#!/usr/bin/env ruby
+
+catalog = {}
+
+Dir["hole/**/*.md"].each do |path|
+    _, _, category, filename = path.match(/(.*)\/(.*)\/(.*).md/).to_a
+    catalog[category] = [] if not catalog[category]
+    catalog[category].push filename
+end
+
+puts """
+# Hole
+
+> Questions and Solutions
+
+## Catalog
+
+"""
+
+catalog.each do |category, filenames|
+    puts "* #{category}"
+    filenames.each do |filename|
+        puts "  * [#{filename}](hole/#{category}/#{filename}.md)"
+    end
+end
