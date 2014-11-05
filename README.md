@@ -24,6 +24,7 @@
   * [indexes](hole/mongodb/indexes.md)
   * [toObject](hole/mongodb/toObject.md)
 * php
+  * [array-copy](hole/php/array-copy.md)
   * [data-attr](hole/php/data-attr.md)
 * regexp
   * [regexp-second-test-fail](hole/regexp/regexp-second-test-fail.md)
