@@ -11,6 +11,8 @@
   * [baseline](hole/css/baseline.md)
 * gh-pages
   * [_](hole/gh-pages/_.md)
+* git
+  * [signed-off-by](hole/git/signed-off-by.md)
 * javascript
   * [grunt-spawn](hole/javascript/grunt-spawn.md)
   * [in-vs-of](hole/javascript/in-vs-of.md)
