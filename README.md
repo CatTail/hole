@@ -20,6 +20,7 @@
   * [refer-to-constructor](hole/javascript/refer-to-constructor.md)
   * [reference-error](hole/javascript/reference-error.md)
   * [share-property](hole/javascript/share-property.md)
+  * [sort](hole/javascript/sort.md)
 * mongodb
   * [indexes](hole/mongodb/indexes.md)
   * [toObject](hole/mongodb/toObject.md)
