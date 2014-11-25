@@ -13,6 +13,8 @@
   * [_](hole/gh-pages/_.md)
 * git
   * [signed-off-by](hole/git/signed-off-by.md)
+* html
+  * [select-default-option](hole/html/select-default-option.md)
 * javascript
   * [grunt-spawn](hole/javascript/grunt-spawn.md)
   * [in-vs-of](hole/javascript/in-vs-of.md)
