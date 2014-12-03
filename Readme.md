@@ -16,6 +16,7 @@
 * html
   * [select-default-option](hole/html/select-default-option.md)
 * javascript
+  * [date](hole/javascript/date.md)
   * [grunt-spawn](hole/javascript/grunt-spawn.md)
   * [in-vs-of](hole/javascript/in-vs-of.md)
   * [nodejs-global-this](hole/javascript/nodejs-global-this.md)
