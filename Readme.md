@@ -23,6 +23,8 @@
   * [nodejs-global-this](hole/javascript/nodejs-global-this.md)
   * [refer-to-constructor](hole/javascript/refer-to-constructor.md)
   * [reference-error](hole/javascript/reference-error.md)
+  * [regex-repeat-group](hole/javascript/regex-repeat-group.md)
+  * [regex-second-test-fail](hole/javascript/regex-second-test-fail.md)
   * [share-property](hole/javascript/share-property.md)
   * [sort](hole/javascript/sort.md)
 * mongodb
@@ -31,6 +33,4 @@
 * php
   * [array-copy](hole/php/array-copy.md)
   * [data-attr](hole/php/data-attr.md)
-* regexp
-  * [regexp-second-test-fail](hole/regexp/regexp-second-test-fail.md)
-  * [repeat-group](hole/regexp/repeat-group.md)
+  * [equal](hole/php/equal.md)
