@@ -14,6 +14,7 @@
 * git
   * [signed-off-by](hole/git/signed-off-by.md)
 * html
+  * [close-script](hole/html/close-script.md)
   * [select-default-option](hole/html/select-default-option.md)
 * javascript
   * [date](hole/javascript/date.md)
