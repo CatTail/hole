@@ -41,7 +41,7 @@ of script tag, we can avoid this in two ways,
 </html>
 ```
 
-escape with html escape will not work,
+escape with html will not work,
 
 ```html
 <!DOCTYPE html>
@@ -58,7 +58,7 @@ escape with html escape will not work,
 </html>
 ```
 
-result in
+which result in
 
 ```html
 <html lang="en"><head>
