@@ -19,6 +19,7 @@
 * javascript
   * [date](hole/javascript/date.md)
   * [grunt-spawn](hole/javascript/grunt-spawn.md)
+  * [http-force-end](hole/javascript/http-force-end.md)
   * [in-vs-of](hole/javascript/in-vs-of.md)
   * [nodejs-global-this](hole/javascript/nodejs-global-this.md)
   * [override-prototype](hole/javascript/override-prototype.md)
