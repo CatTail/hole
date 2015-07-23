@@ -21,6 +21,7 @@
   * [grunt-spawn](hole/javascript/grunt-spawn.md)
   * [in-vs-of](hole/javascript/in-vs-of.md)
   * [nodejs-global-this](hole/javascript/nodejs-global-this.md)
+  * [override-prototype](hole/javascript/override-prototype.md)
   * [refer-to-constructor](hole/javascript/refer-to-constructor.md)
   * [reference-error](hole/javascript/reference-error.md)
   * [regex-repeat-group](hole/javascript/regex-repeat-group.md)
