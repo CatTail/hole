@@ -9,6 +9,8 @@
   * [string-literal](hole/c/string-literal.md)
 * css
   * [baseline](hole/css/baseline.md)
+* general
+  * [utf8-encode-decode](hole/general/utf8-encode-decode.md)
 * gh-pages
   * [_](hole/gh-pages/_.md)
 * git
