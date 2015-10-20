@@ -6,6 +6,7 @@
 ## Catalog
 
 * c
+  * [sizeof](hole/c/sizeof.md)
   * [string-literal](hole/c/string-literal.md)
 * css
   * [baseline](hole/css/baseline.md)
@@ -14,6 +15,7 @@
 * gh-pages
   * [_](hole/gh-pages/_.md)
 * git
+  * [gitkeep](hole/git/gitkeep.md)
   * [signed-off-by](hole/git/signed-off-by.md)
 * html
   * [close-script](hole/html/close-script.md)
