@@ -6,7 +6,6 @@
 ## Catalog
 
 * c
-  * [sizeof](hole/c/sizeof.md)
   * [string-literal](hole/c/string-literal.md)
 * css
   * [baseline](hole/css/baseline.md)
@@ -25,6 +24,7 @@
   * [grunt-spawn](hole/javascript/grunt-spawn.md)
   * [http-force-end](hole/javascript/http-force-end.md)
   * [in-vs-of](hole/javascript/in-vs-of.md)
+  * [logic-reverse](hole/javascript/logic-reverse.md)
   * [nodejs-global-this](hole/javascript/nodejs-global-this.md)
   * [override-prototype](hole/javascript/override-prototype.md)
   * [refer-to-constructor](hole/javascript/refer-to-constructor.md)
