@@ -36,6 +36,8 @@
 * mongodb
   * [indexes](hole/mongodb/indexes.md)
   * [toObject](hole/mongodb/toObject.md)
+* nodejs
+  * [stream-and-pipe](hole/nodejs/stream-and-pipe.md)
 * php
   * [array-copy](hole/php/array-copy.md)
   * [data-attr](hole/php/data-attr.md)
