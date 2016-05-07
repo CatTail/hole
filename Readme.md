@@ -21,6 +21,7 @@
   * [select-default-option](hole/html/select-default-option.md)
 * javascript
   * [date](hole/javascript/date.md)
+  * [for-in-function](hole/javascript/for-in-function.md)
   * [grunt-spawn](hole/javascript/grunt-spawn.md)
   * [http-force-end](hole/javascript/http-force-end.md)
   * [in-vs-of](hole/javascript/in-vs-of.md)
