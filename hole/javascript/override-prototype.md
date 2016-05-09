@@ -1,4 +1,4 @@
-## Problem
+## Question
 
 `obj.constructor.name` is not the class create `obj`
 

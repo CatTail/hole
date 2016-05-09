@@ -1,0 +1,14 @@
+#! /bin/bash
+
+if [ $# -ne 1 ]; then
+    echo "Usage ./bin/add <location>"
+    exit 1
+fi
+
+# create new file
+echo "## Question
+
+## Solution
+" > $1
+
+bin/update

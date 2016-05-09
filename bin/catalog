@@ -1,0 +1,57 @@
+#!/usr/bin/env ruby
+require 'pathname';
+
+BASE = ARGV[0]
+MOUNT = "__mount"
+
+if !BASE
+    puts "Usage: catalog <directory>"
+    exit 1
+end
+
+catalog = {}
+
+Dir["#{BASE}/**/*.md"].each do |path|
+    _, paths, filename = path.match(/(.*\/)+(.*).md/).to_a
+    categories = Pathname.new(paths)
+        .relative_path_from(Pathname.new(BASE))
+        .to_s
+        .split('/')
+
+    slot = catalog
+    categories.each do |category|
+        slot[category] = {} if not slot[category]
+        slot = slot[category]
+    end
+    slot[MOUNT] = [] if not slot[MOUNT]
+    slot[MOUNT].push filename
+end
+
+def generate(category, slot, indent)
+    if slot.class == Hash
+        # first run or recursion required
+        slot.each do |c, s|
+            if c == MOUNT
+                generate("#{category}", s, indent)
+            else
+                if c == '.'
+                    puts  " " * indent + "* default"
+                else
+                    puts  " " * indent + "* #{c}"
+                end
+                if category.empty? 
+                    generate("#{c}", s, indent + 2)
+                elsif
+                    generate("#{category}/#{c}", s, indent + 2)
+                end
+            end
+        end
+    else
+        # bottom condition
+        slot.each do |filename|
+            puts " " * indent + "* [#{filename}](#{BASE}/#{category}/#{filename}.md)"
+        end
+    end
+end
+
+generate("", catalog, 0)

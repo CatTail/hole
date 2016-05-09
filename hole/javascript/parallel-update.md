@@ -1,4 +1,4 @@
-## Problem
+## Question
 
 With serialized JSON data store in relational database (for future extensibility),
 parallel request have unexpected result.

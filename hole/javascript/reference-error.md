@@ -1,4 +1,4 @@
-### Question
+## Question
 
 Use `||` to dectect undefined variable will cause RefereceError exception.
 
@@ -6,7 +6,7 @@ Use `||` to dectect undefined variable will cause RefereceError exception.
 var global = exports || window;
 ```
 
-### Solution
+## Solution
 
 Use `typeof` operator instead
 

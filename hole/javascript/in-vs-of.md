@@ -1,4 +1,4 @@
-### 问题描述
+## Question
 
 在 Javascript 中, `in` 检索对象的键 (key), 但是在 CoffeeScript 中, `in` 检索元素
 是否在数组中.
@@ -12,7 +12,7 @@ if 'ontouchstart' in window
   stuff() # won't being called
 ```
 
-### 解决方案
+## Solution
  
 ```coffee
 # using keyword `of` instead
@@ -20,6 +20,6 @@ if 'ontouchstart' of window
   stuff()
 ```
 
-### 相关参考
+## References
 
   * [simplest-way-to-check-if-key-exists-in-object-using-coffeescript](http://stackoverflow.com/questions/8242984/simplest-way-to-check-if-key-exists-in-object-using-coffeescript)

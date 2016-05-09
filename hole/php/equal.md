@@ -1,4 +1,4 @@
-## Problem
+## Question
 
 ```php
 '1' == 0; // false

@@ -1,4 +1,4 @@
-### Question
+## Question
 
 重复匹配组 (repeating a capturing group) 不能获得重复的匹配组, 而只能获得最后一个匹配的组.
 
@@ -9,7 +9,7 @@ reg.exec(src); // 返回 [ '123abc', 'abc', index: 0, input: '!123abc!' ], 希�
 reg.exec(src); // 返回 null
 ```
 
-### Solution
+## Solution
 
 有些语言并不支持重复匹配组, 而只支持匹配重复组 (capturing a repeated group), 如
 
@@ -30,6 +30,6 @@ subreg.exec(match[0]); // 返回 [ '123', '123', index: 0, input: '123abc' ]
 subreg.exec(match[0]); // 返回 [ 'abc', 'abc', index: 3, input: '123abc' ]
 ```
 
-### References
+## References
 
   * [Repeating a Capturing Group vs. Capturing a Repeated Group](http://www.regular-expressions.info/captureall.html)

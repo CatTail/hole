@@ -1,4 +1,4 @@
-### Question
+## Question
 
 `child_process.spawn` in grunt don't output.
 
@@ -10,7 +10,7 @@ grunt.registerMultiTask('taskName', 'description', function() {
 });
 ```
 
-### Solution
+## Solution
 
 grunt will exit if you don't tell him task is async.
 
@@ -53,7 +53,7 @@ grunt.registerMultiTask('taskName', 'description', function() {
 });
 ```
 
-### References
+## References
 
   * [grunt-legacy-util](https://github.com/gruntjs/grunt-legacy-util/blob/master/index.js)
   * [grunt-util-spawn-doesnt-give-output](http://stackoverflow.com/questions/20806839/grunt-util-spawn-doesnt-give-output)

@@ -1,4 +1,4 @@
-### Question
+## Question
 
 Bus error occurs in when follow code executed:
 
@@ -10,7 +10,7 @@ int main() {
 }
 ```
 
-### Solution
+## Solution
 
 > As the initializer for an array of char, as in the declaration of char a[],
 > it specifies the initial values of the characters in that array.

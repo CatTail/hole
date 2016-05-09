@@ -1,4 +1,4 @@
-### 问题描述
+## Question
 
 使用[mongoose](http://mongoosejs.com/)当对获取到的对话进行一些操作后, 使用在客户
 端接受到的JSON对象没有反映这些修改.
@@ -12,7 +12,7 @@ mongoose.model('Cat').find({ type: 'GM' }).exec(function(err, cars) {
 });
 ```
 
-### 解决方案
+## Solution
 
 因为mongoose返回的对象不是简单对象, 而是进行了封装, 通过toObject可以获得原对象
 
