@@ -1,4 +1,4 @@
-## Problem
+## Question
 
 When I came through readable stream part of [stream-handbook](https://github.com/substack/stream-handbook#creating-a-readable-stream),
 

@@ -1,4 +1,3 @@
-
 # Hole
 
 > Questions and Solutions
@@ -9,8 +8,6 @@
   * [string-literal](hole/c/string-literal.md)
 * css
   * [baseline](hole/css/baseline.md)
-* general
-  * [utf8-encode-decode](hole/general/utf8-encode-decode.md)
 * gh-pages
   * [_](hole/gh-pages/_.md)
 * git
@@ -35,6 +32,9 @@
   * [regex-second-test-fail](hole/javascript/regex-second-test-fail.md)
   * [share-property](hole/javascript/share-property.md)
   * [sort](hole/javascript/sort.md)
+  * [try-catch-callback](hole/javascript/try-catch-callback.md)
+* misc
+  * [utf8-encode-decode](hole/misc/utf8-encode-decode.md)
 * mongodb
   * [indexes](hole/mongodb/indexes.md)
   * [toObject](hole/mongodb/toObject.md)

@@ -1,4 +1,4 @@
-## Problem
+## Question
 
 `a && b` not always equals to `!(!a || !b)` in javascript
 

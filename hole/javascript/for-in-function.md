@@ -1,4 +1,4 @@
-## Problem
+## Question
 
 ```js
 var promise = Promise.resolve()

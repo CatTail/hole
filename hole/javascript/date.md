@@ -1,4 +1,4 @@
-## Problem
+## Question
 
 ```javascript
 var date = new Date(2014, 12, 1); // 2013-01-01

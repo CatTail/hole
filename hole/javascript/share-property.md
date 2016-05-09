@@ -1,4 +1,4 @@
-### 问题描述
+## Question
 
 实例属性在原型继承中很容易被意外共享
 
@@ -30,7 +30,7 @@ console.log(obj3.items.length === 1);  // will be true
 console.log(obj4.items.length === 1);  // will be true
 ```
 
-### 解决方案
+## Solution
 
 ```js
 // move property initialization into constructor
@@ -47,6 +47,6 @@ console.log(obj5.items.length === 0);
 console.log(obj6.items.length === 1);
 ```
 
-### 相关参考
+## References
 
   * [coffeescript-class-member](http://stackoverflow.com/questions/8355371/coffeescript-class-members)

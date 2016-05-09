@@ -1,4 +1,4 @@
-### Question
+## Question
 
 Directly insert json encode string into element data attributes cause problem,
 html invalid because double quote appears in data attributes.
@@ -10,7 +10,7 @@ $data = array(
 printf('<div data-source="%s"></div>', json_encode($data));
 ```
 
-### Solution
+## Solution
 
 Escape double quote before insert json string into element.
 

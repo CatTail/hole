@@ -1,4 +1,4 @@
-## Problem
+## Question
 
 Git cannot add a completely empty director, how to add empty directory to git?
 

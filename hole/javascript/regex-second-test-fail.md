@@ -1,4 +1,4 @@
-### Problem
+## Question
 
 With regular expression, pay attention to `lastIndex` property when `g` option
 is set,
@@ -12,7 +12,7 @@ $zhReg.test('test中'); // true
 $zhReg.test('test中'); // false
 ```
 
-### Solution
+## Solution
 
 ```js
 // reset lastIndex property
@@ -29,6 +29,6 @@ zhReg2.test('test中'); // true
 zhReg2.test('test中'); // true
 ```
 
-### References
+## References
 
   * [MDN RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions#Working_with_Regular_Expressions)

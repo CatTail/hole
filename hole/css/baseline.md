@@ -1,4 +1,4 @@
-### Question
+## Question
 
 Container is a little bit taller than the content image.
 
@@ -22,7 +22,7 @@ Container is a little bit taller than the content image.
 </html>
 ```
 
-### Solution
+## Solution
 
 I don't want pay too much time on CSS, but I know it's a proble related with `baseline`.
 

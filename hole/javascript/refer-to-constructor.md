@@ -1,4 +1,4 @@
-### 问题描述
+## Question
 
 在 CoffeeScript 类定义体中, 可以使用`@`引用构造函数, 但是在实例方法和静态方法中
 却不行
@@ -15,7 +15,7 @@ class $veryveryverylonglonglongClassName
     $veryveryverylonglonglongClassName
 ```
 
-### 解决方案
+## Solution
 
 使用下面方法在静态方法和实例方法中引用构造函数
 

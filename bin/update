@@ -1,0 +1,10 @@
+#! /bin/bash
+
+# generate catalog
+echo "# Hole
+
+> Questions and Solutions
+
+## Catalog
+
+$(bin/catalog hole)" > Readme.md
