@@ -19,6 +19,7 @@
 * javascript
   * [arguments](hole/javascript/arguments.md)
   * [array-initialize](hole/javascript/array-initialize.md)
+  * [constructor-return](hole/javascript/constructor-return.md)
   * [date](hole/javascript/date.md)
   * [for-in-function](hole/javascript/for-in-function.md)
   * [grunt-spawn](hole/javascript/grunt-spawn.md)
