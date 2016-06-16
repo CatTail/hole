@@ -18,6 +18,7 @@
   * [select-default-option](hole/html/select-default-option.md)
 * javascript
   * [arguments](hole/javascript/arguments.md)
+  * [array-initialize](hole/javascript/array-initialize.md)
   * [date](hole/javascript/date.md)
   * [for-in-function](hole/javascript/for-in-function.md)
   * [grunt-spawn](hole/javascript/grunt-spawn.md)
