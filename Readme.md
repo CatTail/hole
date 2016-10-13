@@ -31,6 +31,7 @@
   * [parallel-update](hole/javascript/parallel-update.md)
   * [refer-to-constructor](hole/javascript/refer-to-constructor.md)
   * [reference-error](hole/javascript/reference-error.md)
+  * [regex-escape](hole/javascript/regex-escape.md)
   * [regex-repeat-group](hole/javascript/regex-repeat-group.md)
   * [regex-second-test-fail](hole/javascript/regex-second-test-fail.md)
   * [share-property](hole/javascript/share-property.md)
